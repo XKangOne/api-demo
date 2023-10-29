@@ -17,6 +17,6 @@ public class ApiDemoApplication {
 
     @GetMapping("/list")
     public List<String> getList(){
-        return List.of("吃饭", "睡觉","初代码.");
+        return List.of("吃饭！", "睡觉！","初代码.");
     }
 }
